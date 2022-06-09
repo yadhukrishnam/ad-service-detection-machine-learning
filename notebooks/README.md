@@ -10,9 +10,12 @@
     - Output: `external-feature-dataset.csv`
    
 3. preprocessing.ipynb
-    - Extracts required information from compressed Zlib HTML
-    - Creates necessary features
-    - Output: `final-dataset.csv`
+    - Extracts metadata information from compressed Zlib HTML
+    - Drops unwanted compressed data
+    - Output: `metainfo_decompressed.csv`
     
-
-    
+4. url-features.ipynb
+    - Extracts features from URL
+    - Includes count of special charecters, domain name extension, http / https, www or absense of www.
+    - Length of hostname
+    - Output: `final_dataset.csv`

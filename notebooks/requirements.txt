@@ -1,1 +1,7 @@
 tld
+nltk
+matplotlib
+pandas
+numpy
+wordcloud
+sklearn
